@@ -1,0 +1,122 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    font-family: "Bricolage Grotesque";
+    background: url("https://i.ibb.co/C9tLsYg/Screenshot-2024-02-19-at-8-15-38-p-m.png");
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.hk {
+    font-size: 120px;
+    color: white;
+    text-shadow: 0px 0px 30px black;
+}
+
+#discover {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 0px 0px 10px black;
+    padding-bottom: 50px;
+    margin-top: -70px;
+    padding: 0px 120px;
+
+}
+
+#visit {
+    color: white;
+    padding-top: 50px;
+    margin-bottom: -90px;
+
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin-top: 5px;
+    transition: linear .3s;
+}
+
+img:hover {
+transform: scale(1.2) translateY(10px);
+box-shadow: 3px 3px 10px black;
+
+}
+
+.activities {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-family: "Bricolage Grotesque";
+}
+
+.top {
+    font-family: "Bricolage Grotesque";
+    color: rgb(216,0,17);
+}
+
+.guide {
+    background: #233143;
+    color: white;
+    font-family: "Bricolage Grotesque";
+    margin: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.your-guide {
+    padding-top: 20px;
+}
+
+.pau:hover {
+    transform: scale(1);
+    box-shadow: 0px 0px 0px;
+}
+
+.pau {
+    margin-bottom: 10px; 
+}
+
+.me {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 0px;
+    color: #233143;
+    font-family: "Bricolage Grotesque";
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    text-decoration: none;
+}
+
+.button:hover {
+ transform: scale(1.2);
+}
